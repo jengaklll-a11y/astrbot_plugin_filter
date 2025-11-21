@@ -1,4 +1,4 @@
-# helloworld
+# astrbot_plugin_filter
 
 AstrBot 插件模板
 
