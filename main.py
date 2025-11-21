@@ -3,7 +3,7 @@ from astrbot.api.event import event_handler, AstrMessageEvent
 from astrbot.api.all import Context, Star, register
 
 # 2. 注册插件
-@register("astrbot_plugin_filter", "YourName", "关键词与用户过滤", "1.0.0")
+@register("astrbot_plugin_filter", "jengaklll-a11y", "关键词与用户过滤", "1.0.0")
 class FilterPlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
@@ -12,7 +12,7 @@ class FilterPlugin(Star):
         # 屏蔽关键词
         self.banned_keywords = ["笨蛋", "测试屏蔽", "不要回复"]
         # 屏蔽用户ID
-        self.banned_users = ["12345678", "QQ_OR_WX_ID_HERE"]
+        self.banned_users = ["751418355", "QQ_OR_WX_ID_HERE"]
         # ----------------
 
     # 3. 事件监听器
